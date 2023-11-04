@@ -1,0 +1,23 @@
+{
+  "name": "pre-buil-page-jj",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin344k/jjcha-web-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin344k/jjcha-web-site/issues"
+  },
+  "homepage": "https://github.com/kevin344k/jjcha-web-site#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
