@@ -331,8 +331,7 @@ main {
     }
 
 
-    /*========================================================================*/
-    /*Seccion ACERCA DE MI*/
+
 
     .about_me {
         width: 100%;
@@ -398,7 +397,12 @@ main {
 
     }
 
-
+    .section-catalogo {
+        background-color: $gray-very-soft;
+        padding: 32px 16px;
+        height: fit-content;
+        text-align: center;
+    }
 
 }
 
