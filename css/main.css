@@ -20,13 +20,13 @@ body {
   font-size: 1.6rem;
 }
 
-header {
+.encabezado {
   width: 375px;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto;
 }
-header nav {
+.encabezado nav {
   background-color: #101114;
   width: 100%;
   height: 75px;
@@ -35,12 +35,12 @@ header nav {
   align-items: center;
   padding: 0px 16px;
 }
-header nav .span-logo {
+.encabezado nav .span-logo {
   font-size: 2.4rem;
   color: #FFFFFF;
   font-weight: 700;
 }
-header nav .ico-menu {
+.encabezado nav .ico-menu {
   display: flex;
   width: 24px;
   height: 24px;
@@ -49,12 +49,12 @@ header nav .ico-menu {
   background-repeat: no-repeat;
   background-size: contain;
 }
-header .section-hero {
+.encabezado .section-hero {
   width: 100%;
   height: 500px;
   position: relative;
 }
-header .section-hero .div-hero--img {
+.encabezado .section-hero .div-hero--img {
   /*fondo calavera btc*/
   background-image: url(/imagenes/BTC-greenopease-mobile.jpg);
   filter: opacity(0.5);
@@ -65,7 +65,7 @@ header .section-hero .div-hero--img {
   width: 100%;
   height: 100%;
 }
-header .section-hero .div-hero--slogan {
+.encabezado .section-hero .div-hero--slogan {
   padding: 0px 16px;
   position: absolute;
   width: 100%;
@@ -76,14 +76,14 @@ header .section-hero .div-hero--slogan {
   text-align: center;
   justify-content: space-evenly;
 }
-header .section-hero .div-hero--slogan h1 {
+.encabezado .section-hero .div-hero--slogan h1 {
   font-size: 3.2rem;
   font-weight: 700;
 }
-header .section-hero .div-hero--slogan p {
+.encabezado .section-hero .div-hero--slogan p {
   font-size: 1.6rem;
 }
-header .section-hero .div-hero--slogan .button {
+.encabezado .section-hero .div-hero--slogan .button {
   /*botones turquezas*/
   border: 1px solid #3EF2D0;
   background-color: #3EF2D0;
@@ -97,7 +97,7 @@ header .section-hero .div-hero--slogan .button {
   display: flex;
   justify-content: center;
 }
-header .section-hero .div-hero--slogan .button .ico-arrow-forward {
+.encabezado .section-hero .div-hero--slogan .button .ico-arrow-forward {
   margin-left: 12px;
   display: flex;
   width: 24px;
@@ -107,11 +107,11 @@ header .section-hero .div-hero--slogan .button .ico-arrow-forward {
   background-repeat: no-repeat;
   background-size: contain;
 }
-header .section-hero .div-hero--slogan .button:hover {
+.encabezado .section-hero .div-hero--slogan .button:hover {
   background-color: #FFFFFF;
   border: 1px solid #3EF2D0;
 }
-header .section-hero .div-hero--slogan .button:hover .ico-arrow-forward {
+.encabezado .section-hero .div-hero--slogan .button:hover .ico-arrow-forward {
   transition: 0.3;
   transform: rotate(-45deg);
 }
@@ -119,6 +119,7 @@ header .section-hero .div-hero--slogan .button:hover .ico-arrow-forward {
 main {
   width: 375px;
   padding: 0px 16px;
+  margin: auto;
 }
 main .social-media {
   margin: 38px 0px;
