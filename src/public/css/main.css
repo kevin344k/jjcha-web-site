@@ -84,14 +84,15 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .encabezado .section-hero .div-hero--slogan h1 {
-  font-size: 3.2rem;
+  font-size: 4.2rem;
   font-weight: 700;
 }
 .encabezado .section-hero .div-hero--slogan p {
-  font-size: 1.6rem;
+  text-align: center;
+  font-size: 1.7rem;
 }
 .encabezado .section-hero .div-hero--slogan .button {
   /*botones turquezas*/

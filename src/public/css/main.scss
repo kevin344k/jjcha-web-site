@@ -121,16 +121,17 @@ body {
             display: flex;
             flex-direction: column;
             text-align: center;
-            justify-content: space-evenly;
+            justify-content: center;
 
             h1 {
-                font-size: 3.2rem;
+                font-size: 4.2rem;
                 font-weight: 700;
 
             }
 
             p {
-                font-size: $font-size-paragraph;
+                text-align: center;
+                font-size: 1.7rem;
             }
 
             .button {
