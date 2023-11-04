@@ -1,5 +1,5 @@
 //measures device
-//-mobile:375px
+//-mobile:400px
 //-tablet:1199-810
 //-desktop:1200px
 
@@ -64,7 +64,9 @@ body {
 
 
 .encabezado {
-    width: 375px;
+    width: 100vw;
+    max-width: 400px;
+    min-width: 350px;
     height: fit-content;
     margin: auto;
 
@@ -165,7 +167,9 @@ body {
 }
 
 main {
-    width: 375px;
+    width: 100vw;
+    max-width: 400px;
+    min-width: 350px;
 
     margin: auto;
 
@@ -341,9 +345,6 @@ main {
 
     }
 
-
-
-
     .about_me {
         width: 100%;
         height: fit-content;
@@ -419,139 +420,58 @@ main {
         .h2_subtitle{
             @extend %h2;
         }
+        .button {
+            /*botones turquezas*/
+            border: 1px solid $turquesa;
+            background-color: $turquesa;
+            color: $negro;
+            width: 100%;
+            padding: 16px 24px;
+            margin-top: 3rem;
+            font-weight: 600;
+            border-radius: 6px;
+            text-decoration: none;
+            display: flex;
+            font-size: 1.7rem;
+            justify-content: center;
+
+            .ico-arrow-forward {
+                margin-left: 12px;
+                @include ico_img(24px, 24px, "../assets/ico/cart-icon.svg")
+            }
+
+            &:hover {
+                background-color: $blanco;
+                border: 1px solid $turquesa;
+
+                .ico-arrow-forward {
+                    transition: .3;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
     }
 
 }
 
 footer {
-    width: 375px;
+    width: 100vw;
+    max-width: 400px;
+    min-width: 350px;
     background-color: $black-soft;
     text-align: center;
 
-    height: 75px;
+    height: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 16px;
-
+    border-radius: 0 50% 0 0;
     .span-logo {
-        font-size: 2.4rem;
+        font-size: 1.7rem;
         color: $blanco;
-        font-weight: 700;
+        font-weight: 500;
         display: inline-block;
         margin: auto;
     }
-}
-
-
-
-
-
-/**=====================================================================================/
-/*SECCION MERCH INCONFISCABLE*/
-.catalogo {
-    position: relative;
-    width: 100%;
-    height: 78rem;
-}
-
-.slider input {
-    visibility: hidden;
-    display: none;
-
-}
-
-.botton {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    bottom: 5rem;
-    gap: 1rem;
-}
-
-.botton label {
-    width: 2rem;
-    height: 2rem;
-    background-color: #3EF2D0;
-    opacity: 0.7;
-    cursor: pointer;
-    z-index: 1;
-    transition: 300ms ease-in-out;
-    border-radius: 1rem;
-}
-
-.botton label:hover {
-    scale: 1.2;
-    opacity: 1;
-}
-
-.slider input:nth-child(1):checked~.botton label:nth-child(1),
-.slider input:nth-child(2):checked~.botton label:nth-child(2),
-.slider input:nth-child(3):checked~.botton label:nth-child(3),
-.slider input:nth-child(4):checked~.botton label:nth-child(4) {
-    opacity: 1;
-    scroll-margin: 1.2;
-    width: 4rem;
-}
-
-.content {
-    position: relative;
-    width: 40rem;
-    display: flex;
-    transition: 400ms ease-in-out;
-
-}
-
-.primeroslide,
-.segundoslide,
-.terceroslide,
-.cuartoslide {
-    margin: 0 100rem;
-    position: relative;
-    width: 10rem;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.slider input:nth-child(1):checked~.content {
-    left: 0;
-
-}
-
-.slider input:nth-child(2):checked~.content {
-    left: -10rem;
-
-}
-
-.slider input:nth-child(3):checked~.content {
-    left: -200vw;
-
-}
-
-.slider input:nth-child(4):checked~.content {
-    left: -300vw;
-
-}
-
-
-
-
-
-
-
-
-
-
-.pedido {
-    background-color: #3EF2D0;
-    color: var(--negro);
-    padding: 2.5rem 3.5rem;
-    margin-top: 3rem;
-    font-weight: 700;
-    border-radius: 1rem;
-    font-size: 3rem;
-    text-decoration: none;
 }
