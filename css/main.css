@@ -121,6 +121,46 @@ main {
   padding: 0px 16px;
   margin: auto;
 }
+main .div-lives {
+  margin: 58px 0px;
+}
+main .div-lives .foto {
+  border-radius: 10rem;
+  width: 15rem;
+  height: auto;
+  background-color: var(--gris);
+  box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.3);
+}
+main .div-lives .live_texto {
+  font-size: 3rem;
+  margin: 1rem;
+}
+main .div-lives .live_texto--mentoria {
+  color: #F5515F;
+  font-weight: 700;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+main .div-lives .animated_live {
+  width: 100%;
+  height: 250px;
+}
+main .div-lives .schedule-lives {
+  width: 100%;
+  height: 450px;
+  background-image: linear-gradient(to right, #F5515F, #9F046C);
+  padding: 16px;
+  border-radius: 16px 30% 16px 30%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 1px 32px -7px rgba(0, 0, 0, 0.75);
+}
+main .div-lives .schedule-lives .live_texto {
+  font-weight: 700;
+  color: #FFFFFF;
+}
 main .social-media {
   margin: 38px 0px;
   text-align: center;
@@ -141,6 +181,7 @@ main .social-media .iconos_redes_r {
 }
 main .social-media .botones_redes {
   border: 1px solid #c2c6c7;
+  box-shadow: 0px 1px 12px -7px rgba(0, 0, 0, 0.75);
   background-color: #FFFFFF;
   padding: 1rem 1.8rem;
   margin-top: 2rem;
@@ -157,6 +198,10 @@ main .social-media .botones_redes a {
 }
 main .social-media .botones_redes:hover {
   background-color: #c2c6c7;
+}
+main .social-media .botones_redes .ico-live {
+  display: flex;
+  margin-left: 8px;
 }
 
 /*
@@ -218,14 +263,6 @@ h3 {
   border-radius: 1rem;
 }
 
-.foto {
-  border-radius: 10rem;
-  width: 20rem;
-  height: auto;
-  background-color: var(--gris);
-  box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.3);
-}
-
 .icono_circular {
   border-radius: 5rem;
 }
@@ -233,11 +270,6 @@ h3 {
 .stream_iconos {
   display: flex;
   align-items: center;
-}
-
-.live_texto {
-  font-size: 4rem;
-  margin: 1rem;
 }
 
 .live {
