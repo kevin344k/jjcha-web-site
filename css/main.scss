@@ -10,9 +10,12 @@ $blanco: #FFFFFF;
 $negro: #000000;
 $black-soft: #101114;
 $orange: #F5515F;
-$gray-soft: #c2c6c7; //fonts 
-$box-shadow-big:0px 1px 32px -7px rgba(0,0,0,0.75);
-$box-shadow-small:0px 1px 12px -7px rgba(0,0,0,0.75);;
+$gray-soft: #c2c6c7;
+$gray-very-soft: #f1f1f1;
+//fonts 
+$box-shadow-big: 0px 1px 32px -7px rgba(0, 0, 0, 0.75);
+$box-shadow-small: 0px 1px 12px -7px rgba(0, 0, 0, 0.75);
+;
 $font-family-poppins: 'Poppins', sans-serif;
 //weight:700,400
 $font-size-paragraph: 1.6rem;
@@ -156,11 +159,12 @@ body {
 
 main {
     width: 375px;
-    padding: 0px 16px;
+
     margin: auto;
 
     .div-lives {
         margin: 58px 0px;
+        padding: 0px 16px;
 
         .foto {
             border-radius: 10rem;
@@ -179,7 +183,7 @@ main {
         .live_texto--mentoria {
             color: $orange;
             font-weight: 700;
-            font-size: 4rem;
+            font-size: 3.2rem;
             text-decoration: underline;
         }
 
@@ -199,6 +203,7 @@ main {
             flex-direction: column;
             justify-content: center;
             box-shadow: $box-shadow-big;
+
             .live_texto {
                 font-weight: 700;
                 color: $blanco;
@@ -209,6 +214,7 @@ main {
     .social-media {
         margin: 38px 0px;
         text-align: center;
+        padding: 0px 16px;
 
         .h2--subtitle {
             margin: 12px 0px;
@@ -239,22 +245,89 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
-  
+
             a {
                 text-decoration: none;
                 color: $black-soft;
             }
-           
+
             &:hover {
                 background-color: $gray-soft;
 
             }
-            .ico-live{
+
+            .ico-live {
                 display: flex;
                 margin-left: 8px;
             }
 
         }
+
+
+    }
+
+    .mentoria-contenedor {
+        background-color: $gray-very-soft;
+        padding: 32px 16px;
+        height: fit-content;
+
+        .h2--subtitle {
+            font-size: 2.4rem;
+            text-align: center;
+        }
+
+        .mentoria_contenido {
+            font-size: $font-size-paragraph;
+            display: flex;
+            flex-direction: column;
+
+            text-align: left;
+            width: 100%;
+
+            align-content: center;
+            justify-content: space-between;
+
+            ul {
+                li {
+                    list-style: none;
+                    margin: 18px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    .mentoria_texto {
+                        padding: 0rem;
+                        font-weight: 500;
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        width: 330px;
+                        
+                    }
+                    .visto {
+                        margin-right: 8px;
+                        @include ico_img(20px, 24px, "../assets/ico/done-ico.svg");
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .mentoria_texto-recordatorio {
+                        display: flex;
+                       
+                    }
+                    .ico-rojo{
+                        margin-right: 8px;
+                        @include ico_img(20px, 24px, "../imagenes/puntorojo.png");
+                    }
+
+
+                }
+            }
+
+        }
+
+
+
+
     }
 }
 
@@ -324,14 +397,6 @@ h3 {
     justify-content: space-evenly;
 }
 
-.linea {
-    /*botones turquezas*/
-    background-color: var(--gris);
-    color: var(--blanco);
-    padding: 26rem 0.2rem;
-    border-radius: 1rem;
-}
-
 
 
 
@@ -348,60 +413,7 @@ h3 {
 
 
 
-.live {
-    /*botones turquezas*/
-    background-color: #3EF2D0;
-    color: var(--negro);
-    padding: 2rem 0rem;
-    margin: 3rem 12rem;
-    font-weight: 700;
-    border-radius: 1rem;
-    font-size: 4rem;
-}
 
-/*================================================================*/
-.mentoria {
-    height: 55rem;
-    position: relative;
-
-}
-
-.mentoria_contenido {
-    font-size: 2.2rem;
-    display: flex;
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    height: 60%;
-    align-content: center;
-    justify-content: space-between;
-}
-
-.mentoria_texto {
-    padding: 0rem;
-    font-weight: 500;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.mentoria_texto p {
-    margin: 0rem;
-}
-
-.youtube {
-    width: 40rem;
-    height: auto;
-}
-
-.recordatorio {
-    margin-bottom: 3rem;
-    font-size: 3rem;
-    font-weight: 300;
-    display: flex;
-    justify-content: left;
-
-}
 
 .brojo {
     width: 5rem;
