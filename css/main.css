@@ -119,6 +119,8 @@ body {
 main {
   width: 375px;
   margin: auto;
+  /*========================================================================*/
+  /*Seccion ACERCA DE MI*/
 }
 main .div-lives {
   margin: 58px 0px;
@@ -263,6 +265,70 @@ main .mentoria-contenedor .mentoria_contenido ul li .ico-rojo {
   background-repeat: no-repeat;
   background-size: contain;
 }
+main .about_me {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0px 16px;
+  text-align: center;
+  margin: 38px 0px;
+}
+main .about_me .h2_subtitle {
+  margin: 12px 0px;
+}
+main .about_me .div-container--video {
+  width: 100%;
+  margin-top: 24px;
+  border-radius: 2rem;
+}
+main .about_me .div-container--video .video {
+  border-radius: 2rem;
+  width: 100%;
+  box-shadow: 0px 1px 12px -7px rgba(0, 0, 0, 0.75);
+}
+main .about_me .marco {
+  font-weight: 500;
+  border-radius: 2rem;
+  box-shadow: 0px 1px 12px -7px rgba(0, 0, 0, 0.75);
+}
+main .about_me .marco img {
+  border-radius: 100%;
+  margin: 24px 0px;
+}
+main .about_me .marco .about-me--text {
+  padding: 24px;
+  margin: 24px 0px;
+  display: inline-block;
+}
+main .about_me .marco .about-me--text p {
+  margin: 12px 0px;
+}
+main .about_me .marco .resaltado {
+  background-color: #101114;
+  color: #FFFFFF;
+  padding: 2rem 1rem;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+footer {
+  width: 375px;
+  background-color: #101114;
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+}
+footer .span-logo {
+  font-size: 2.4rem;
+  color: #FFFFFF;
+  font-weight: 700;
+}
 
 /*
 
@@ -279,88 +345,12 @@ h3 {
 }
 */
 /*primer seccion de la pagina*/
-.contenido-encabezado {
-  /*personalizacion encabezado*/
-  background-color: rgba(255, 255, 255, 0.45);
-  /*transparencia de fondo*/
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  /*alinear y centrar texto */
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .contenido-encabezado p,
 .contenido-encabezado a {
   color: black;
   font-size: 500;
   font-size: 3rem;
   text-decoration-line: none;
-}
-
-/*=======================================================*/
-/*seccion de redes y live */
-.redes_contenido {
-  font-size: 2.5rem;
-  display: flex;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  height: 60%;
-  align-content: center;
-  justify-content: space-evenly;
-}
-
-.icono_circular {
-  border-radius: 5rem;
-}
-
-.stream_iconos {
-  display: flex;
-  align-items: center;
-}
-
-.brojo {
-  width: 5rem;
-  height: 5rem;
-  margin-right: 2rem;
-}
-
-.visto {
-  width: 5rem;
-  height: 5rem;
-}
-
-/*========================================================================*/
-/*Seccion ACERCA DE MI*/
-.video {
-  border-radius: 2rem;
-  width: auto;
-  height: 70rem;
-}
-
-.marco {
-  background-color: rgb(255, 255, 255);
-  padding: 10rem 10rem 3.5rem 10rem;
-  margin-top: auto;
-  font-weight: 500;
-  border-radius: 2rem;
-  font-size: 3rem;
-  box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.3);
-}
-
-.resaltado {
-  background-color: var(--negro);
-  color: var(--blanco);
-  padding: 2rem 1rem;
-  margin-top: 3rem;
-  font-weight: 500;
-  border-radius: 1rem;
-  font-size: 4.5rem;
 }
 
 /**=====================================================================================/
