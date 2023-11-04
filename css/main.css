@@ -322,7 +322,6 @@ footer {
   width: 375px;
   background-color: #101114;
   text-align: center;
-  width: 100%;
   height: 75px;
   display: flex;
   justify-content: space-between;
@@ -333,6 +332,8 @@ footer .span-logo {
   font-size: 2.4rem;
   color: #FFFFFF;
   font-weight: 700;
+  display: inline-block;
+  margin: auto;
 }
 
 /*
