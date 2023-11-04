@@ -1,5 +1,12 @@
+main .about_me .h2_subtitle, main .mentoria-contenedor .h2--subtitle, main .social-media .h2--subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
 html {
   font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 * {
