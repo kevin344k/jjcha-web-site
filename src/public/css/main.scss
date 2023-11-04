@@ -39,6 +39,7 @@ $font-size-paragraph: 1.6rem;
 html {
     font-size: 62.5%;
     font-family: $font-family-poppins;
+  
 }
 
 * {
@@ -141,6 +142,7 @@ body {
                 border-radius: 6px;
                 text-decoration: none;
                 display: flex;
+                font-size: 1.7rem;
                 justify-content: center;
 
                 .ico-arrow-forward {
@@ -251,6 +253,8 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
+            font-family: $font-family-poppins;
+            font-size: 1.7rem;
 
             a {
                 text-decoration: none;
@@ -346,6 +350,8 @@ main {
         padding: 0px 16px;
         text-align: center;
         margin: 38px 0px;
+        font-size: 1.7rem;
+        font-family: $font-family-poppins;
 
         .h2_subtitle {
             margin: 12px 0px;
@@ -410,6 +416,9 @@ main {
         padding: 32px 16px;
         height: fit-content;
         text-align: center;
+        .h2_subtitle{
+            @extend %h2;
+        }
     }
 
 }
@@ -432,40 +441,6 @@ footer {
         display: inline-block;
         margin: auto;
     }
-}
-
-
-
-
-
-
-/*
-
-h2 {
-    font-size: 4rem;
-    font-weight: 700;
-
-}
-
-h3 {
-    font-size: 4rem;
-    font-weight: 700;
-
-}
-*/
-
-
-/*primer seccion de la pagina*/
-
-
-
-.contenido-encabezado p,
-/*modificador texto debajo de titulo*/
-.contenido-encabezado a {
-    color: black;
-    font-size: 500;
-    font-size: 3rem;
-    text-decoration-line: none;
 }
 
 

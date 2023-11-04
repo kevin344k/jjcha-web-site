@@ -1,4 +1,4 @@
-main .about_me .h2_subtitle, main .mentoria-contenedor .h2--subtitle, main .social-media .h2--subtitle {
+main .section-catalogo .h2_subtitle, main .about_me .h2_subtitle, main .mentoria-contenedor .h2--subtitle, main .social-media .h2--subtitle {
   font-family: "Poppins", sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
@@ -102,6 +102,7 @@ body {
   border-radius: 6px;
   text-decoration: none;
   display: flex;
+  font-size: 1.7rem;
   justify-content: center;
 }
 .encabezado .section-hero .div-hero--slogan .button .ico-arrow-forward {
@@ -199,6 +200,8 @@ main .social-media .botones_redes {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
 }
 main .social-media .botones_redes a {
   text-decoration: none;
@@ -277,6 +280,8 @@ main .about_me {
   padding: 0px 16px;
   text-align: center;
   margin: 38px 0px;
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
 }
 main .about_me .h2_subtitle {
   margin: 12px 0px;
@@ -324,7 +329,6 @@ main .section-catalogo {
   height: fit-content;
   text-align: center;
 }
-
 footer {
   width: 375px;
   background-color: #101114;
@@ -341,29 +345,6 @@ footer .span-logo {
   font-weight: 700;
   display: inline-block;
   margin: auto;
-}
-
-/*
-
-h2 {
-    font-size: 4rem;
-    font-weight: 700;
-
-}
-
-h3 {
-    font-size: 4rem;
-    font-weight: 700;
-
-}
-*/
-/*primer seccion de la pagina*/
-.contenido-encabezado p,
-.contenido-encabezado a {
-  color: black;
-  font-size: 500;
-  font-size: 3rem;
-  text-decoration-line: none;
 }
 
 /**=====================================================================================/
