@@ -155,6 +155,9 @@ main .social-media .botones_redes a {
   text-decoration: none;
   color: #101114;
 }
+main .social-media .botones_redes:hover {
+  background-color: #c2c6c7;
+}
 
 /*
 

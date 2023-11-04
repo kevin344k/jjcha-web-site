@@ -191,7 +191,10 @@ main {
                 color: $black-soft;
             }
 
-
+            &:hover {
+                background-color: $gray-soft;
+             
+            }
 
         }
     }
