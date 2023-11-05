@@ -32,8 +32,6 @@ body {
   height: 100vh;
   max-width: 576px;
   min-width: 320px;
-  height: -moz-fit-content;
-  height: fit-content;
   margin: auto;
 }
 .encabezado nav {
@@ -52,8 +50,8 @@ body {
 }
 .encabezado nav .ico-menu {
   display: flex;
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
   background-image: url("../assets/ico/icon-hamburger.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -388,4 +386,19 @@ footer .span-logo {
   font-weight: 500;
   display: inline-block;
   margin: auto;
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .encabezado {
+    width: 100vw;
+    height: 100vh;
+    max-width: 577px;
+    min-width: 992px;
+  }
+  main {
+    width: 100vw;
+    max-width: 577px;
+    min-width: 992px;
+    margin: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
