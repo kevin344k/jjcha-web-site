@@ -172,6 +172,7 @@ body {
     }
 }
 
+
 main {
     width: 100vw;
     max-width: $maxw-mobile;
@@ -436,7 +437,7 @@ main {
         }
 
         .button {
-            /*botones turquezas*/
+          
             border: 1px solid $turquesa;
             background-color: $turquesa;
             color: $negro;
@@ -469,6 +470,9 @@ main {
 
 }
 
+
+
+
 footer {
     width: 100vw;
     max-width: $maxw-mobile;
@@ -480,7 +484,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 16px;
+
     border-radius: 0 50% 0 0;
 
     .span-logo {
@@ -491,6 +495,7 @@ footer {
         margin: auto;
     }
 }
+
 
 @media screen and (max-width:992px) and (min-width:576px) {
     .encabezado {
@@ -655,7 +660,7 @@ footer {
 
         nav {
             width: 100%;
-            padding: 0rem 20rem;
+            padding: 0rem 10%;
         }
 
         .section-hero {
@@ -666,7 +671,7 @@ footer {
                 top: calc(50vh - 310px);
                 text-align: center;
                 height: fit-content;
-                padding: 0em 20rem;
+                padding: 0em 15rem;
 
                 h1 {
                     font-size: 7rem;
@@ -698,7 +703,7 @@ footer {
         .social-media {
             margin-top: 4.8rem;
             width: 100%;
-            padding: 0px 20rem;
+            padding: 0px 10%;
 
             .h2--subtitle {
                 font-size: 4.8rem;
@@ -729,7 +734,7 @@ footer {
                     }
 
                     .schedule-lives {
-                        width: 30%;
+                        width: 50%;
                         height: 100%;
 
                         p {
@@ -771,8 +776,7 @@ footer {
         }
 
         .about_me {
-            padding: 0rem 20rem;
-            width: fit-content;
+            padding: 0rem 10%;
             height: fit-content;
             margin: 38px auto;
             .h2_subtitle {
@@ -785,7 +789,8 @@ footer {
                 justify-content: center;
                 align-items: center;
                 margin-top: 2.4rem;
-                gap: 10%;
+                gap: 10px;
+                width: fit-content;
              
 
                 .marco {
@@ -812,7 +817,7 @@ footer {
 
         .section-catalogo{
             height: fit-content;
-            padding: 3.2rem 20rem;
+            padding: 3.2rem 10%;
             .h2_subtitle{
                 font-size: 4.8rem;
             }

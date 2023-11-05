@@ -332,7 +332,6 @@ main .section-catalogo {
   text-align: center;
 }
 main .section-catalogo .button {
-  /*botones turquezas*/
   border: 1px solid #3EF2D0;
   background-color: #3EF2D0;
   color: #000000;
@@ -375,7 +374,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 16px;
   border-radius: 0 50% 0 0;
 }
 footer .span-logo {
@@ -495,7 +493,7 @@ footer .span-logo {
   }
   .encabezado nav {
     width: 100%;
-    padding: 0rem 20rem;
+    padding: 0rem 10%;
   }
   .encabezado .section-hero .div-hero--slogan {
     display: inline-block;
@@ -504,7 +502,7 @@ footer .span-logo {
     text-align: center;
     height: -moz-fit-content;
     height: fit-content;
-    padding: 0em 20rem;
+    padding: 0em 15rem;
   }
   .encabezado .section-hero .div-hero--slogan h1 {
     font-size: 7rem;
@@ -527,7 +525,7 @@ footer .span-logo {
   main .social-media {
     margin-top: 4.8rem;
     width: 100%;
-    padding: 0px 20rem;
+    padding: 0px 10%;
   }
   main .social-media .h2--subtitle {
     font-size: 4.8rem;
@@ -553,7 +551,7 @@ footer .span-logo {
     width: 100%;
   }
   main .social-media .social-media--container .div-lives .schedule-lives {
-    width: 30%;
+    width: 50%;
     height: 100%;
   }
   main .social-media .social-media--container .div-lives .schedule-lives p {
@@ -574,9 +572,7 @@ footer .span-logo {
     font-size: 2.2rem;
   }
   main .about_me {
-    padding: 0rem 20rem;
-    width: -moz-fit-content;
-    width: fit-content;
+    padding: 0rem 10%;
     height: -moz-fit-content;
     height: fit-content;
     margin: 38px auto;
@@ -590,7 +586,9 @@ footer .span-logo {
     justify-content: center;
     align-items: center;
     margin-top: 2.4rem;
-    gap: 10%;
+    gap: 10px;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   main .about_me .redes_contenido .marco {
     width: 400px;
@@ -611,7 +609,7 @@ footer .span-logo {
   main .section-catalogo {
     height: -moz-fit-content;
     height: fit-content;
-    padding: 3.2rem 20rem;
+    padding: 3.2rem 10%;
   }
   main .section-catalogo .h2_subtitle {
     font-size: 4.8rem;
