@@ -487,4 +487,109 @@ footer .span-logo {
     width: 100vw;
     max-width: none;
   }
+}
+@media screen and (width > 993px) {
+  .encabezado {
+    width: 100vw;
+    max-width: none;
+  }
+  .encabezado nav {
+    width: 100%;
+    padding: 0rem 20rem;
+  }
+  .encabezado .section-hero .div-hero--slogan {
+    display: inline-block;
+    margin-top: 100px;
+    top: calc(50vh - 310px);
+    text-align: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0em 20rem;
+  }
+  .encabezado .section-hero .div-hero--slogan h1 {
+    font-size: 7rem;
+  }
+  .encabezado .section-hero .div-hero--slogan p {
+    font-size: 2rem;
+  }
+  .encabezado .section-hero .div-hero--slogan .button {
+    width: 300px;
+    font-size: 2.2rem;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+  main {
+    width: 100vw;
+    max-width: none;
+  }
+  main .social-media {
+    margin-top: 4.8rem;
+    width: 100%;
+    padding: 0px 20rem;
+  }
+  main .social-media .h2--subtitle {
+    font-size: 4.8rem;
+  }
+  main .social-media .social-media--container {
+    height: 100%;
+  }
+  main .social-media .social-media--container .social-buttons {
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  main .social-media .social-media--container .div-lives {
+    display: flex;
+    height: 568px;
+    justify-content: space-evenly;
+  }
+  main .social-media .social-media--container .div-lives .div-today-luck {
+    width: 50%;
+  }
+  main .social-media .social-media--container .div-lives .div-today-luck .animated_live {
+    width: 100%;
+  }
+  main .social-media .social-media--container .div-lives .schedule-lives {
+    width: 30%;
+    height: 100%;
+  }
+  main .social-media .social-media--container .div-lives .schedule-lives p {
+    font-size: 38px;
+    text-align: center;
+  }
+  main .mentoria-contenedor {
+    padding: 8rem 20rem;
+  }
+  main .mentoria-contenedor .h2--subtitle {
+    font-size: 4.8rem;
+  }
+  main .mentoria-contenedor .mentoria_contenido ul li .visto {
+    width: 3rem;
+    height: 3rem;
+  }
+  main .mentoria-contenedor .mentoria_contenido ul li .mentoria_texto {
+    font-size: 2.2rem;
+  }
+  main .about_me .h2_subtitle {
+    font-size: 3rem;
+  }
+  main .about_me .redes_contenido {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin-top: 2.4rem;
+    gap: 12px;
+  }
+  main .about_me .redes_contenido .marco {
+    height: 830px;
+  }
+  main .about_me .redes_contenido .marco .about-me--text {
+    font-size: 2.4rem;
+  }
+  main .about_me .redes_contenido .div-container--video {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=main.css.map */

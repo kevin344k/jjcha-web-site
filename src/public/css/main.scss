@@ -107,7 +107,7 @@ body {
         .div-hero--img {
             /*fondo calavera btc*/
             background-image: url("../imagenes/BTC-greenopease-mobile.jpg");
-            filter: opacity(.5) blur(5px);
+            filter:  opacity(.5) blur(5px);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -639,6 +639,160 @@ footer {
     footer {
         width: 100vw;
         max-width: none;
+
+    }
+
+}
+
+
+@media screen and (width>993px)  {
+
+   .encabezado {
+        width: 100vw;
+        max-width: none;
+
+
+        nav {
+            width: 100%;
+            padding:0rem 20rem ;
+        }
+
+        .section-hero {
+            
+            .div-hero--slogan {
+                display: inline-block;
+                margin-top: 100px;
+                top: calc(50vh - 310px);
+                text-align: center;
+                height: fit-content;
+                padding: 0em 20rem;
+                h1 {
+                    font-size: 7rem;
+                }
+
+                p {
+                    font-size: 2rem;
+                }
+
+                .button {
+                    width: 300px;
+                    font-size: 2.2rem;
+                    margin: auto;
+                    margin-top: 40px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+
+
+    }
+
+
+    main {
+        width: 100vw;
+        max-width: none;
+
+        .social-media {
+            margin-top: 4.8rem;
+            width: 100%;
+            padding: 0px 20rem;
+            .h2--subtitle {
+                font-size: 4.8rem;
+            }
+
+            .social-media--container {
+                height: 100%;
+
+                .social-buttons {
+
+                    margin-top: 58px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 12px;
+                }
+
+                .div-lives {
+                    display: flex;
+                    height: 568px;
+                    justify-content: space-evenly;
+                    .div-today-luck {
+                        width: 50%;
+
+                        .animated_live {
+                            width: 100%;
+                        }
+                    }
+
+                    .schedule-lives {
+                        width: 30%;
+                        height: 100%;
+
+                        p {
+                            font-size: 38px;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        .mentoria-contenedor {
+            padding: 8rem 20rem;
+
+            .h2--subtitle {
+                font-size: 4.8rem;
+            }
+
+            .mentoria_contenido {
+
+                ul {
+                    li {
+                        .visto {
+                            width: 3.0rem;
+                            height: 3.0rem;
+                        }
+
+                        .mentoria_texto {
+                            font-size: 2.2rem;
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+
+        .about_me {
+            .h2_subtitle {
+                font-size: 3.0rem;
+            }
+
+            .redes_contenido {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                justify-content: center;
+                margin-top: 2.4rem;
+                gap: 12px;
+
+
+                .marco {
+                    height: 830px;
+                    .about-me--text{
+                        font-size: 2.4rem;
+                    }
+                }
+
+                .div-container--video {
+                    margin-top: 0px;
+                }
+
+            }
+        }
+
 
     }
 
