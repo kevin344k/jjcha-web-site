@@ -246,16 +246,14 @@ main .mentoria-contenedor .mentoria_contenido ul li {
 main .mentoria-contenedor .mentoria_contenido ul li .mentoria_texto {
   padding: 0rem;
   font-weight: 500;
-  display: flex;
   justify-content: left;
   align-items: center;
-  width: 330px;
 }
 main .mentoria-contenedor .mentoria_contenido ul li .visto {
   margin-right: 8px;
   display: flex;
-  width: 20px;
-  height: 24px;
+  width: 2rem;
+  height: 2.4rem;
   background-image: url("../assets/ico/done-ico.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -363,8 +361,7 @@ main .section-catalogo .button:hover {
   border: 1px solid #3EF2D0;
 }
 main .section-catalogo .button:hover .ico-arrow-forward {
-  transition: 0.3;
-  transform: rotate(-45deg);
+  transition: 0.3s;
 }
 
 footer {
@@ -373,6 +370,7 @@ footer {
   min-width: 320px;
   background-color: #101114;
   text-align: center;
+  margin: auto;
   height: 140px;
   display: flex;
   justify-content: space-between;
@@ -424,27 +422,58 @@ footer .span-logo {
   main .social-media {
     width: 100%;
   }
+  main .social-media .h2--subtitle {
+    font-size: 30px;
+  }
   main .social-media .social-media--container {
     height: 100%;
-    display: flex;
   }
   main .social-media .social-media--container .social-buttons {
-    width: 50%;
-    height: 100%;
     margin-top: 58px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 12px;
   }
   main .social-media .social-media--container .div-lives {
+    display: flex;
+    height: 568px;
+  }
+  main .social-media .social-media--container .div-lives .div-today-luck {
     width: 50%;
   }
-  main .social-media .social-media--container .div-lives .animated_live {
+  main .social-media .social-media--container .div-lives .div-today-luck .animated_live {
     width: 100%;
   }
   main .social-media .social-media--container .div-lives .schedule-lives {
-    height: 320px;
+    width: 50%;
+    height: 100%;
+  }
+  main .social-media .social-media--container .div-lives .schedule-lives p {
+    font-size: 38px;
+  }
+  main .mentoria-contenedor {
+    padding: 20px;
+  }
+  main .mentoria-contenedor .h2--subtitle {
+    font-size: 30px;
+  }
+  main .mentoria-contenedor .mentoria_contenido ul li .visto {
+    width: 3rem;
+    height: 3rem;
+  }
+  main .mentoria-contenedor .mentoria_contenido ul li .mentoria_texto {
+    font-size: 2.2rem;
+  }
+  main .about_me .h2_subtitle {
+    font-size: 3rem;
+  }
+  main .about_me .redes_contenido {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 12px;
   }
   footer {
     width: 100vw;
-    max-width: 577px;
-    min-width: 992px;
+    max-width: none;
   }
 }/*# sourceMappingURL=main.css.map */
