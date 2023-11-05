@@ -790,13 +790,14 @@ footer {
                 align-items: center;
                 margin-top: 2.4rem;
                 gap: 10px;
+                margin: auto;
                 width: fit-content;
              
 
                 .marco {
                  
                     width: 400px;
-
+                    height: 100%;
                     .about-me--text {
                         font-size: 2.4rem;
                     }
