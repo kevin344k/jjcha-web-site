@@ -65,7 +65,7 @@ body {
 .encabezado .section-hero .div-hero--img {
   /*fondo calavera btc*/
   background-image: url("../imagenes/BTC-greenopease-mobile.jpg");
-  filter: opacity(0.4);
+  filter: opacity(0.5) blur(5px);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -388,17 +388,52 @@ footer .span-logo {
   margin: auto;
 }
 
-@media (min-width: 577px) and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 576px) {
   .encabezado {
     width: 100vw;
-    height: 100vh;
-    max-width: 577px;
-    min-width: 992px;
+    max-width: none;
+  }
+  .encabezado nav {
+    width: 100%;
+  }
+  .encabezado .section-hero .div-hero--slogan {
+    display: inline-block;
+    margin-top: 100px;
+    text-align: center;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .encabezado .section-hero .div-hero--slogan h1 {
+    font-size: 7rem;
+  }
+  .encabezado .section-hero .div-hero--slogan p {
+    font-size: 2rem;
+  }
+  .encabezado .section-hero .div-hero--slogan .button {
+    width: 300px;
+    font-size: 2.2rem;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
   }
   main {
     width: 100vw;
+    max-width: none;
+  }
+  main .social-media {
+    width: 100%;
+    display: flex;
+  }
+  main .social-media .social-buttons {
+    width: 50%;
+  }
+  main .social-media .div-lives {
+    width: 50%;
+  }
+  footer {
+    width: 100vw;
     max-width: 577px;
     min-width: 992px;
-    margin: auto;
   }
 }/*# sourceMappingURL=main.css.map */

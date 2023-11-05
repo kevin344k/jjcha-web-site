@@ -1,10 +1,10 @@
 //measures device
 //-mobile:480px
-$maxw-mobile:576px;
-$minw-mobile:320px;
+$maxw-mobile: 576px;
+$minw-mobile: 320px;
 //-tablet:1199-810
-$maxw-tablet:577px;
-$minw-tablet:992px;
+$maxw-tablet: 577px;
+$minw-tablet: 992px;
 //-desktop:1200px
 
 //primary colors
@@ -34,7 +34,8 @@ $font-size-paragraph: 1.6rem;
     background-repeat: no-repeat;
     background-size: contain;
 }
-%h2{
+
+%h2 {
     font-family: $font-family-poppins;
     font-size: 2.4rem;
     font-weight: 700;
@@ -43,7 +44,7 @@ $font-size-paragraph: 1.6rem;
 html {
     font-size: 62.5%;
     font-family: $font-family-poppins;
-  
+
 }
 
 * {
@@ -106,7 +107,7 @@ body {
         .div-hero--img {
             /*fondo calavera btc*/
             background-image: url("../imagenes/BTC-greenopease-mobile.jpg");
-            filter: opacity(.4);
+            filter: opacity(.5) blur(5px);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -422,9 +423,11 @@ main {
         padding: 32px 16px;
         height: fit-content;
         text-align: center;
-        .h2_subtitle{
+
+        .h2_subtitle {
             @extend %h2;
         }
+
         .button {
             /*botones turquezas*/
             border: 1px solid $turquesa;
@@ -472,6 +475,7 @@ footer {
     align-items: center;
     padding: 0px 16px;
     border-radius: 0 50% 0 0;
+
     .span-logo {
         font-size: 1.7rem;
         color: $blanco;
@@ -480,19 +484,62 @@ footer {
         margin: auto;
     }
 }
-@media (min-width:577px) and (max-width:992px){
-    .encabezado{
+
+@media screen and (max-width:992px) and (min-width:576px) {
+    .encabezado {
         width: 100vw;
-        height: 100vh;
-        max-width: $maxw-tablet;
-        min-width: $minw-tablet
+        max-width: none;
+
+
+        nav {
+            width: 100%;
+        }
+        .section-hero{
+            .div-hero--slogan {
+                display: inline-block;
+                margin-top: 100px;
+                text-align: center;
+                height: fit-content;
+                h1{
+                    font-size: 7rem;
+                }
+                p{
+                    font-size: 2rem;
+                }
+                .button{
+                    width: 300px;
+                    font-size: 2.2rem;
+                    margin: auto;
+                    margin-top: 40px;
+                    display: flex ;
+                    align-items: center;
+                }
+            }
+        }
+
+
     }
 
-main{
-    width: 100vw;
-    max-width: $maxw-tablet;
-    min-width: $minw-tablet;
-    margin: auto;
-}
+    main {
+        width: 100vw;
+        max-width: none;
+        .social-media {
+            width: 100%;
+            display: flex;
+            .social-buttons{
+                width: 50%;
+            }
+            .div-lives{
+                width: 50%;
+            }
+        }
+
+    }
+
+    footer {
+        width: 100vw;
+        max-width: $maxw-tablet;
+        min-width: $minw-tablet;
+    }
 
 }
