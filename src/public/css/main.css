@@ -30,8 +30,8 @@ body {
 .encabezado {
   width: 100vw;
   height: 100vh;
-  max-width: 400px;
-  min-width: 350px;
+  max-width: 576px;
+  min-width: 320px;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto;
@@ -67,7 +67,7 @@ body {
 .encabezado .section-hero .div-hero--img {
   /*fondo calavera btc*/
   background-image: url("../imagenes/BTC-greenopease-mobile.jpg");
-  filter: opacity(0.5);
+  filter: opacity(0.4);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -130,8 +130,8 @@ body {
 
 main {
   width: 100vw;
-  max-width: 400px;
-  min-width: 350px;
+  max-width: 576px;
+  min-width: 320px;
   margin: auto;
 }
 main .div-lives {
@@ -371,8 +371,8 @@ main .section-catalogo .button:hover .ico-arrow-forward {
 
 footer {
   width: 100vw;
-  max-width: 400px;
-  min-width: 350px;
+  max-width: 576px;
+  min-width: 320px;
   background-color: #101114;
   text-align: center;
   height: 140px;

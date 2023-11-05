@@ -1,0 +1,63 @@
+//measures device
+//-mobile:400px
+//-tablet:1199-810
+//-desktop:1200px
+
+//primary colors
+$turquesa: #3EF2D0;
+$gris: #BBC9D6;
+$blanco: #FFFFFF;
+$negro: #000000;
+$black-soft: #101114;
+$orange: #F5515F;
+$gray-soft: #c2c6c7;
+$gray-very-soft: #f1f1f1;
+//fonts 
+$box-shadow-big: 0px 1px 32px -7px rgba(0, 0, 0, 0.75);
+$box-shadow-small: 0px 1px 12px -7px rgba(0, 0, 0, 0.75);
+;
+$font-family-poppins: 'Poppins', sans-serif;
+//weight:700,400
+$font-size-paragraph: 1.6rem;
+
+//helpers
+@mixin ico_img($w, $h, $url) {
+    display: flex;
+    width: $w;
+    height: $h;
+    background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+%h2{
+    font-family: $font-family-poppins;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: $font-family-poppins;
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+*/
+
+body {
+    font-family: $font-family-poppins;
+    font-size: $font-size-paragraph;
+}
+
