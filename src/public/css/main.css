@@ -573,23 +573,59 @@ footer .span-logo {
   main .mentoria-contenedor .mentoria_contenido ul li .mentoria_texto {
     font-size: 2.2rem;
   }
+  main .about_me {
+    padding: 0rem 20rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 38px auto;
+  }
   main .about_me .h2_subtitle {
-    font-size: 3rem;
+    font-size: 4.8rem;
   }
   main .about_me .redes_contenido {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
+    align-items: center;
     margin-top: 2.4rem;
-    gap: 12px;
+    gap: 10%;
   }
   main .about_me .redes_contenido .marco {
-    height: 830px;
+    width: 400px;
   }
   main .about_me .redes_contenido .marco .about-me--text {
     font-size: 2.4rem;
   }
   main .about_me .redes_contenido .div-container--video {
     margin-top: 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 400px;
+  }
+  main .about_me .redes_contenido .div-container--video .video {
+    width: 100%;
+    height: 100%;
+  }
+  main .section-catalogo {
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 3.2rem 20rem;
+  }
+  main .section-catalogo .h2_subtitle {
+    font-size: 4.8rem;
+  }
+  main .section-catalogo .carousel {
+    margin: auto;
+    width: 50%;
+  }
+  main .section-catalogo .button {
+    margin: 32px auto;
+    width: 300px;
+  }
+  footer {
+    max-width: none;
+    border-radius: 0px;
   }
 }/*# sourceMappingURL=main.css.map */

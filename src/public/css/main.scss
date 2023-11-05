@@ -107,7 +107,7 @@ body {
         .div-hero--img {
             /*fondo calavera btc*/
             background-image: url("../imagenes/BTC-greenopease-mobile.jpg");
-            filter:  opacity(.5) blur(5px);
+            filter: opacity(.5) blur(5px);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -621,7 +621,8 @@ footer {
 
                 .marco {
                     height: 830px;
-                    .about-me--text{
+
+                    .about-me--text {
                         font-size: 2.4rem;
                     }
                 }
@@ -645,20 +646,20 @@ footer {
 }
 
 
-@media screen and (width>993px)  {
+@media screen and (width>993px) {
 
-   .encabezado {
+    .encabezado {
         width: 100vw;
         max-width: none;
 
 
         nav {
             width: 100%;
-            padding:0rem 20rem ;
+            padding: 0rem 20rem;
         }
 
         .section-hero {
-            
+
             .div-hero--slogan {
                 display: inline-block;
                 margin-top: 100px;
@@ -666,6 +667,7 @@ footer {
                 text-align: center;
                 height: fit-content;
                 padding: 0em 20rem;
+
                 h1 {
                     font-size: 7rem;
                 }
@@ -697,6 +699,7 @@ footer {
             margin-top: 4.8rem;
             width: 100%;
             padding: 0px 20rem;
+
             .h2--subtitle {
                 font-size: 4.8rem;
             }
@@ -716,6 +719,7 @@ footer {
                     display: flex;
                     height: 568px;
                     justify-content: space-evenly;
+
                     .div-today-luck {
                         width: 50%;
 
@@ -767,33 +771,68 @@ footer {
         }
 
         .about_me {
+            padding: 0rem 20rem;
+            width: fit-content;
+            height: fit-content;
+            margin: 38px auto;
             .h2_subtitle {
-                font-size: 3.0rem;
+                font-size: 4.8rem;
             }
 
             .redes_contenido {
                 display: grid;
                 grid-template-columns: 50% 50%;
                 justify-content: center;
+                align-items: center;
                 margin-top: 2.4rem;
-                gap: 12px;
-
+                gap: 10%;
+             
 
                 .marco {
-                    height: 830px;
-                    .about-me--text{
+                 
+                    width: 400px;
+
+                    .about-me--text {
                         font-size: 2.4rem;
                     }
                 }
 
                 .div-container--video {
                     margin-top: 0px;
+                    width: fit-content;
+                    width: 400px;
+                    .video {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
 
             }
         }
 
+        .section-catalogo{
+            height: fit-content;
+            padding: 3.2rem 20rem;
+            .h2_subtitle{
+                font-size: 4.8rem;
+            }
+            .carousel{
+              margin: auto;
+              width: 50%;
+            }
+            .button{
+                margin: 32px auto;
+                width: 300px;
+            }
+        }
 
     }
+
+    footer{
+        max-width: none;
+        border-radius: 0px;
+    }
+
+
 
 }
