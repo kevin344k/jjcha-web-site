@@ -9,6 +9,7 @@ $minw-tablet: 992px;
 
 //primary colors
 $turquesa: #3EF2D0;
+$turquesa_transparent: #3ef2d180;
 $gris: #BBC9D6;
 $blanco: #FFFFFF;
 $negro: #000000;
@@ -145,10 +146,25 @@ body {
 
             .div-clok--container {
 
-                margin:auto;
+                margin:12px auto;
                
                 height: fit-content;
                 width: fit-content;
+                //background-color: $turquesa_transparent;
+                //border-radius: 12px;
+                //box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75) inset;
+                
+              
+                .text-rewards-halvin{
+                font-family: $font-family-poppins;
+                color: $black-soft;
+                }
+                .text-halvin{
+                    font-family: $font-family-poppins;
+                    color: $black-soft;
+                }
+                
+                
                 .clock {
 
                     width: 100%;

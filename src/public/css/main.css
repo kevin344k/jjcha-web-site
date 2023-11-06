@@ -94,11 +94,19 @@ body {
   font-size: 1.7rem;
 }
 .encabezado .section-hero .div-hero--slogan .div-clok--container {
-  margin: auto;
+  margin: 12px auto;
   height: -moz-fit-content;
   height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .text-rewards-halvin {
+  font-family: "Poppins", sans-serif;
+  color: #101114;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .text-halvin {
+  font-family: "Poppins", sans-serif;
+  color: #101114;
 }
 .encabezado .section-hero .div-hero--slogan .div-clok--container .clock {
   width: 100%;
