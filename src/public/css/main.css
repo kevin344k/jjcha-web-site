@@ -83,6 +83,7 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  /* Halvin clock*/
 }
 .encabezado .section-hero .div-hero--slogan h1 {
   font-size: 4.2rem;
@@ -91,6 +92,48 @@ body {
 .encabezado .section-hero .div-hero--slogan p {
   text-align: center;
   font-size: 1.7rem;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container {
+  margin-top: 24px;
+  width: 100%;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper {
+  margin: 16px 0px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul {
+  margin: 2px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li {
+  line-height: 65px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li a .up .inn {
+  font-size: 40px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li a .down .inn {
+  font-size: 40px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .flip-clock-divider {
+  width: 10px;
+  height: 90px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .flip-clock-divider .flip-clock-label {
+  right: -50px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .days {
+  width: 0px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .flip-clock-dot, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .flip-clock-dot, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .flip-clock-dot {
+  left: 0;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .top, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .top, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .top {
+  top: 20px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .bottom, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .bottom, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .bottom {
+  top: 40px;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .clock .flip {
+  width: 30px;
+  height: 60px;
 }
 .encabezado .section-hero .div-hero--slogan .button {
   /*botones turquezas*/
@@ -177,6 +220,9 @@ main .social-media .social-media--container .div-lives .schedule-lives {
 main .social-media .social-media--container .div-lives .schedule-lives .live_texto {
   font-weight: 700;
   color: #FFFFFF;
+}
+main .social-media .social-media--container .social-buttons {
+  width: 100%;
 }
 main .social-media .social-media--container .social-buttons .iconos_redes {
   width: 3.5rem;
@@ -429,6 +475,7 @@ footer .span-logo {
   main .social-media .social-media--container .social-buttons {
     margin-top: 58px;
     display: grid;
+    align-items: center;
     grid-template-columns: 50% 50%;
     gap: 12px;
   }

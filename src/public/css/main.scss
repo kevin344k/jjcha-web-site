@@ -138,6 +138,86 @@ body {
                 font-size: 1.7rem;
             }
 
+
+
+
+            /* Halvin clock*/
+
+            .div-clok--container {
+                margin-top: 24px;
+                width: 100%;
+
+                .flip-clock-wrapper {
+                    margin: 16px 0px;
+
+                    ul {
+                        margin: 2px;
+                        li {
+                            line-height: 65px;
+
+                            a {
+                                .up {
+
+                                    .inn {
+                                        font-size: 40px;
+                                    }
+
+                                }
+
+                                .down {
+                                    .inn {
+                                        font-size: 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .flip-clock-divider {
+                        width: 10px;
+                        height: 90px;
+
+                        .flip-clock-label{
+                            right: -50px;
+                        }
+                        
+
+                    }
+                    .days{
+                        width: 0px;
+                    }
+                    .hours {
+                        .flip-clock-dot {
+                            left: 0;
+                        }
+                        .top {
+                            top: 20px;
+                        }
+
+                        .bottom {
+                            top: 40px;
+                        }
+                    }
+                    .minutes{
+                        @extend .hours;
+                    }
+                    .seconds{
+                        @extend .hours;
+                    }
+
+
+                }
+
+                .clock {
+
+                    .flip {
+                        width: 30px;
+                        height: 60px;
+                    }
+                }
+
+            }
+
             .button {
                 /*botones turquezas*/
                 border: 1px solid $turquesa;
@@ -237,6 +317,8 @@ main {
             }
 
             .social-buttons {
+                width: 100%;
+
                 .iconos_redes {
                     width: 3.5rem;
                     height: 3.5rem;
@@ -437,7 +519,7 @@ main {
         }
 
         .button {
-          
+
             border: 1px solid $turquesa;
             background-color: $turquesa;
             color: $negro;
@@ -554,6 +636,7 @@ footer {
 
                     margin-top: 58px;
                     display: grid;
+                    align-items: center;
                     grid-template-columns: 50% 50%;
                     gap: 12px;
                 }
@@ -779,6 +862,7 @@ footer {
             padding: 0rem 10%;
             height: fit-content;
             margin: 38px auto;
+
             .h2_subtitle {
                 font-size: 4.8rem;
             }
@@ -792,12 +876,13 @@ footer {
                 gap: 10px;
                 margin: auto;
                 width: fit-content;
-             
+
 
                 .marco {
-                 
+
                     width: 400px;
                     height: 100%;
+
                     .about-me--text {
                         font-size: 2.4rem;
                     }
@@ -807,6 +892,7 @@ footer {
                     margin-top: 0px;
                     width: fit-content;
                     width: 400px;
+
                     .video {
                         width: 100%;
                         height: 100%;
@@ -816,17 +902,20 @@ footer {
             }
         }
 
-        .section-catalogo{
+        .section-catalogo {
             height: fit-content;
             padding: 3.2rem 10%;
-            .h2_subtitle{
+
+            .h2_subtitle {
                 font-size: 4.8rem;
             }
-            .carousel{
-              margin: auto;
-              width: 50%;
+
+            .carousel {
+                margin: auto;
+                width: 50%;
             }
-            .button{
+
+            .button {
                 margin: 32px auto;
                 width: 300px;
             }
@@ -834,7 +923,7 @@ footer {
 
     }
 
-    footer{
+    footer {
         max-width: none;
         border-radius: 0px;
     }
