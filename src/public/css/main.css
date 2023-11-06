@@ -94,7 +94,13 @@ body {
   font-size: 1.7rem;
 }
 .encabezado .section-hero .div-hero--slogan .div-clok--container {
-  margin-top: 24px;
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.encabezado .section-hero .div-hero--slogan .div-clok--container .clock {
   width: 100%;
 }
 .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper {

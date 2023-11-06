@@ -144,14 +144,22 @@ body {
             /* Halvin clock*/
 
             .div-clok--container {
-                margin-top: 24px;
-                width: 100%;
+
+                margin:auto;
+               
+                height: fit-content;
+                width: fit-content;
+                .clock {
+
+                    width: 100%;
+                }
 
                 .flip-clock-wrapper {
                     margin: 16px 0px;
 
                     ul {
                         margin: 2px;
+
                         li {
                             line-height: 65px;
 
@@ -177,19 +185,22 @@ body {
                         width: 10px;
                         height: 90px;
 
-                        .flip-clock-label{
+                        .flip-clock-label {
                             right: -50px;
                         }
-                        
+
 
                     }
-                    .days{
+
+                    .days {
                         width: 0px;
                     }
+
                     .hours {
                         .flip-clock-dot {
                             left: 0;
                         }
+
                         .top {
                             top: 20px;
                         }
@@ -198,10 +209,12 @@ body {
                             top: 40px;
                         }
                     }
-                    .minutes{
+
+                    .minutes {
                         @extend .hours;
                     }
-                    .seconds{
+
+                    .seconds {
                         @extend .hours;
                     }
 

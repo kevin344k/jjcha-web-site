@@ -2466,7 +2466,7 @@ var FlipClock;
 		'days'    : 'Días',
 		'hours'   : 'Horas',
 		'minutes' : 'Minutos',
-		'seconds' : 'Segundos'	
+		'seconds' : 'Seg'	
 
 	};
 	
