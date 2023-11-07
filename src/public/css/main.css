@@ -103,10 +103,14 @@ body {
 .encabezado .section-hero .div-hero--slogan .div-clok--container .text-rewards-halvin {
   font-family: "Poppins", sans-serif;
   color: #101114;
+  font-weight: 700;
+  margin-top: 0px;
 }
 .encabezado .section-hero .div-hero--slogan .div-clok--container .text-halvin {
   font-family: "Poppins", sans-serif;
   color: #101114;
+  font-weight: 700;
+  margin-bottom: 36px;
 }
 .encabezado .section-hero .div-hero--slogan .div-clok--container .clock {
   width: 100%;
@@ -454,22 +458,98 @@ footer .span-logo {
   }
   .encabezado .section-hero .div-hero--slogan {
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 90px;
     text-align: center;
     height: -moz-fit-content;
     height: fit-content;
   }
   .encabezado .section-hero .div-hero--slogan h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
   .encabezado .section-hero .div-hero--slogan p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container {
+    margin: 12px auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .text-rewards-halvin {
+    font-family: "Poppins", sans-serif;
+    color: #101114;
+    font-weight: 700;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .text-halvin {
+    font-family: "Poppins", sans-serif;
+    color: #101114;
+    font-weight: 700;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .clock {
+    width: 100%;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper {
+    margin: 16px 0px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul {
+    margin: 3px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li {
+    line-height: 85px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li a .up .inn {
+    font-size: 70px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li a .down .inn {
+    font-size: 70px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .flip-clock-divider {
+    width: 10px;
+    height: 90px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .flip-clock-divider .flip-clock-label {
+    right: -50px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .days {
+    width: 0px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .flip-clock-dot, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .flip-clock-dot, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .flip-clock-dot {
+    left: 0;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .top, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .top, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .top {
+    top: 30px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .bottom, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .bottom, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .bottom {
+    top: 50px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .flip-clock-dot {
+    left: 0;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .top {
+    top: 30px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .bottom {
+    top: 50px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .flip-clock-dot {
+    left: 0;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .top {
+    top: 30px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .bottom {
+    top: 50px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .clock .flip {
+    width: 50px;
+    height: 80px;
   }
   .encabezado .section-hero .div-hero--slogan .button {
     width: 300px;
     font-size: 2.2rem;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
   }
@@ -559,17 +639,75 @@ footer .span-logo {
   .encabezado .section-hero .div-hero--slogan {
     display: inline-block;
     margin-top: 100px;
-    top: calc(50vh - 310px);
+    top: calc(40vh - 310px);
     text-align: center;
     height: -moz-fit-content;
     height: fit-content;
-    padding: 0em 15rem;
+    padding: 0em 10rem;
   }
   .encabezado .section-hero .div-hero--slogan h1 {
     font-size: 7rem;
   }
   .encabezado .section-hero .div-hero--slogan p {
     font-size: 2rem;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container {
+    margin: 12px auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .text-rewards-halvin {
+    font-family: "Poppins", sans-serif;
+    color: #101114;
+    font-weight: 700;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .text-halvin {
+    font-family: "Poppins", sans-serif;
+    color: #101114;
+    font-weight: 700;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .clock {
+    width: 100%;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper {
+    margin: 16px 0px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul {
+    margin: 5px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li {
+    line-height: 87px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li a .up .inn {
+    font-size: 80px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper ul li a .down .inn {
+    font-size: 80px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .flip-clock-divider {
+    width: 10px;
+    height: 90px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .flip-clock-divider .flip-clock-label {
+    right: -50px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .days {
+    width: 0px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .flip-clock-dot, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .flip-clock-dot, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .flip-clock-dot {
+    left: 0;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .top, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .top, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .top {
+    top: 40px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .hours .bottom, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .minutes .bottom, .encabezado .section-hero .div-hero--slogan .div-clok--container .flip-clock-wrapper .seconds .bottom {
+    top: 60px;
+  }
+  .encabezado .section-hero .div-hero--slogan .div-clok--container .clock .flip {
+    width: 60px;
+    height: 90px;
   }
   .encabezado .section-hero .div-hero--slogan .button {
     width: 300px;

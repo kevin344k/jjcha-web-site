@@ -158,10 +158,14 @@ body {
                 .text-rewards-halvin{
                 font-family: $font-family-poppins;
                 color: $black-soft;
+                font-weight: 700;
+                margin-top: 0px;
                 }
                 .text-halvin{
                     font-family: $font-family-poppins;
                     color: $black-soft;
+                    font-weight: 700;
+                    margin-bottom: 36px;
                 }
                 
                 
@@ -621,23 +625,149 @@ footer {
         .section-hero {
             .div-hero--slogan {
                 display: inline-block;
-                margin-top: 100px;
+                margin-top: 90px;
                 text-align: center;
                 height: fit-content;
 
                 h1 {
-                    font-size: 7rem;
+                    font-size: 6rem;
                 }
 
                 p {
-                    font-size: 2rem;
+                    font-size: 1.8rem;
+                }
+
+
+                .div-clok--container {
+
+                    margin:12px auto;
+                   
+                    height: fit-content;
+                    width: fit-content;
+                    //background-color: $turquesa_transparent;
+                    //border-radius: 12px;
+                    //box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75) inset;
+                    
+                  
+                    .text-rewards-halvin{
+                    font-family: $font-family-poppins;
+                    color: $black-soft;
+                    font-weight: 700;
+                    }
+                    .text-halvin{
+                        font-family: $font-family-poppins;
+                        color: $black-soft;
+                        font-weight: 700;
+                    }
+                    
+                    
+                    .clock {
+    
+                        width: 100%;
+                    }
+    
+                    .flip-clock-wrapper {
+                        margin: 16px 0px;
+    
+                        ul {
+                            margin: 3px;
+    
+                            li {
+                                line-height: 85px;
+    
+                                a {
+                                    .up {
+    
+                                        .inn {
+                                            font-size: 70px;
+                                        }
+    
+                                    }
+    
+                                    .down {
+                                        .inn {
+                                            font-size: 70px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+    
+                        .flip-clock-divider {
+                            width: 10px;
+                            height: 90px;
+    
+                            .flip-clock-label {
+                                right: -50px;
+                            }
+    
+    
+                        }
+    
+                        .days {
+                            width: 0px;
+                        }
+    
+                        .hours {
+                            .flip-clock-dot {
+                                left: 0;
+                            }
+    
+                            .top {
+                                top: 30px;
+                            }
+    
+                            .bottom {
+                                top: 50px;
+                            }
+                        }
+    
+                        .minutes {
+                            .flip-clock-dot {
+                                left: 0;
+                            }
+    
+                            .top {
+                                top: 30px;
+                            }
+    
+                            .bottom {
+                                top: 50px;
+                            }
+                        }
+    
+                        .seconds {
+                            .flip-clock-dot {
+                                left: 0;
+                            }
+    
+                            .top {
+                                top: 30px;
+                            }
+    
+                            .bottom {
+                                top: 50px;
+                            }
+                        }
+    
+    
+                    }
+    
+                    .clock {
+    
+                        .flip {
+                            width: 50px;
+                            height: 80px;
+                        }
+                    }
+    
                 }
 
                 .button {
                     width: 300px;
                     font-size: 2.2rem;
                     margin: auto;
-                    margin-top: 40px;
+                    margin-top: 20px;
                     display: flex;
                     align-items: center;
                 }
@@ -780,10 +910,10 @@ footer {
             .div-hero--slogan {
                 display: inline-block;
                 margin-top: 100px;
-                top: calc(50vh - 310px);
+                top: calc(40vh - 310px);
                 text-align: center;
                 height: fit-content;
-                padding: 0em 15rem;
+                padding: 0em 10rem;
 
                 h1 {
                     font-size: 7rem;
@@ -792,7 +922,110 @@ footer {
                 p {
                     font-size: 2rem;
                 }
+                .div-clok--container {
 
+                    margin:12px auto;
+                   
+                    height: fit-content;
+                    width: fit-content;
+                    //background-color: $turquesa_transparent;
+                    //border-radius: 12px;
+                    //box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75) inset;
+                    
+                  
+                    .text-rewards-halvin{
+                    font-family: $font-family-poppins;
+                    color: $black-soft;
+                    font-weight: 700;
+                    }
+                    .text-halvin{
+                        font-family: $font-family-poppins;
+                        color: $black-soft;
+                        font-weight: 700;
+                    }
+                    
+                    
+                    .clock {
+    
+                        width: 100%;
+                    }
+    
+                    .flip-clock-wrapper {
+                        margin: 16px 0px;
+    
+                        ul {
+                            margin: 5px;
+    
+                            li {
+                                line-height: 87px;
+    
+                                a {
+                                    .up {
+    
+                                        .inn {
+                                            font-size: 80px;
+                                        }
+    
+                                    }
+    
+                                    .down {
+                                        .inn {
+                                            font-size: 80px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+    
+                        .flip-clock-divider {
+                            width: 10px;
+                            height: 90px;
+    
+                            .flip-clock-label {
+                                right: -50px;
+                            }
+    
+    
+                        }
+    
+                        .days {
+                            width: 0px;
+                        }
+    
+                        .hours {
+                            .flip-clock-dot {
+                                left: 0;
+                            }
+    
+                            .top {
+                                top: 40px;
+                            }
+    
+                            .bottom {
+                                top: 60px;
+                            }
+                        }
+    
+                        .minutes {
+                            @extend .hours;
+                        }
+    
+                        .seconds {
+                            @extend .hours;
+                        }
+    
+    
+                    }
+    
+                    .clock {
+    
+                        .flip {
+                            width: 60px;
+                            height: 90px;
+                        }
+                    }
+    
+                }
                 .button {
                     width: 300px;
                     font-size: 2.2rem;
