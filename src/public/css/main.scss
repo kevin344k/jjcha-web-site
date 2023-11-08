@@ -368,21 +368,16 @@ main {
                     border: 1px solid $gray-soft;
                     box-shadow: $box-shadow-small;
                     background-color: $blanco;
-                    padding: 1rem 1.8rem;
-                    margin-top: 2rem;
-                    border-radius: 0.6rem;
-                    margin-top: 0rem;
-                    margin-bottom: 3rem;
+                    padding: 1rem 1.8rem;                
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-family: $font-family-poppins;
                     font-size: 1.7rem;
+                    text-decoration: none;
+            
+                    color: $black-soft;
 
-                    a {
-                        text-decoration: none;
-                        color: $black-soft;
-                    }
 
                     &:hover {
                         background-color: $gray-soft;
