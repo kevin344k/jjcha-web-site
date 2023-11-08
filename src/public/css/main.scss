@@ -300,6 +300,8 @@ main {
         padding: 0px 16px;
 
         .social-media--container {
+            display: flex;
+            flex-direction: column;
             .div-lives {
                 margin: 58px 0px;
                 padding: 0px 16px;
@@ -329,24 +331,25 @@ main {
                     width: 100%;
                     height: 250px;
                 }
-
                 .schedule-lives {
                     width: 100%;
-                    height: 450px;
-                    background-image: linear-gradient(to right, $orange, #9F046C);
-                    padding: 16px;
+                    height: fit-content;
+                   //background-image: linear-gradient(to right, $orange, #9F046C);
+                   // padding: 16px;
                     border-radius: 16px 30% 16px 30%;
-                    text-align: left;
+                    text-align: center;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    box-shadow: $box-shadow-big;
+                    //box-shadow: $box-shadow-big;
+                  
 
                     .live_texto {
-                        font-weight: 700;
-                        color: $blanco;
+                        font-weight: 500;
+                        color: $orange;
                     }
                 }
+             
             }
 
             .social-buttons {
@@ -368,7 +371,8 @@ main {
                     border: 1px solid $gray-soft;
                     box-shadow: $box-shadow-small;
                     background-color: $blanco;
-                    padding: 1rem 1.8rem;                
+                    padding: 1rem 1.8rem;  
+                    margin-top: 16px;              
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -784,38 +788,42 @@ footer {
             }
 
             .social-media--container {
-                height: 100%;
+                height: fit-content;
+                flex-direction: row;
 
                 .social-buttons {
-
+                    width: 35%;
                     margin-top: 58px;
                     display: grid;
                     align-items: center;
-                    grid-template-columns: 50% 50%;
+                    grid-template-columns: 1fr;
                     gap: 12px;
                 }
 
                 .div-lives {
-                    display: flex;
-                    height: 568px;
+            
+                    height: fit-content;
 
                     .div-today-luck {
-                        width: 50%;
+                       
 
                         .animated_live {
-                            width: 100%;
+                            width: 180px;
+                            margin: auto;
+                        }
+
+                        .schedule-lives {
+                           width: 100%;
+                            height: 100%;
+    
+                            p {
+                                font-size: 3rem;
+                            }
+    
                         }
                     }
 
-                    .schedule-lives {
-                        width: 50%;
-                        height: 100%;
-
-                        p {
-                            font-size: 38px;
-                        }
-
-                    }
+                   
                 }
             }
 
@@ -858,7 +866,7 @@ footer {
                 grid-template-columns: 50% 50%;
                 justify-content: center;
                 margin-top: 2.4rem;
-                gap: 12px;
+                gap: 24px;
 
 
                 .marco {
@@ -881,6 +889,7 @@ footer {
 
     footer {
         width: 100vw;
+        height: 75px;
         max-width: none;
 
     }
@@ -889,6 +898,11 @@ footer {
 
 
 @media screen and (width>993px) {
+
+
+%h2_subtitle{
+    font-size: 3rem;
+}
 
     .encabezado {
         width: 100vw;
@@ -1046,7 +1060,7 @@ footer {
             padding: 0px 10%;
 
             .h2--subtitle {
-                font-size: 4.8rem;
+                @extend %h2_subtitle;
             }
 
             .social-media--container {
@@ -1092,7 +1106,7 @@ footer {
             padding: 8rem 20rem;
 
             .h2--subtitle {
-                font-size: 4.8rem;
+                @extend %h2_subtitle;
             }
 
             .mentoria_contenido {
@@ -1121,7 +1135,7 @@ footer {
             margin: 38px auto;
 
             .h2_subtitle {
-                font-size: 4.8rem;
+               @extend %h2_subtitle;
             }
 
             .redes_contenido {
@@ -1161,15 +1175,16 @@ footer {
 
         .section-catalogo {
             height: fit-content;
-            padding: 3.2rem 10%;
+            width: 100%;
+           // padding: 3.2rem 10%;
 
             .h2_subtitle {
-                font-size: 4.8rem;
+                @extend %h2_subtitle;
             }
 
             .carousel {
                 margin: auto;
-                width: 50%;
+                width: 500px;
             }
 
             .button {
@@ -1182,6 +1197,7 @@ footer {
 
     footer {
         max-width: none;
+        height: 75px;
         border-radius: 0px;
     }
 
