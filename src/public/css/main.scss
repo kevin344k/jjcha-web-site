@@ -423,6 +423,7 @@ main {
             align-content: center;
             justify-content: space-between;
 
+           div{
             ul {
                 li {
                     list-style: none;
@@ -461,6 +462,10 @@ main {
 
                 }
             }
+            .man-with-btc{
+                display: none;
+            }
+           }
 
         }
 
@@ -836,20 +841,25 @@ footer {
             }
 
             .mentoria_contenido {
+                div {
 
-                ul {
-                    li {
-                        .visto {
-                            width: 3.0rem;
-                            height: 3.0rem;
-                        }
+                    ul {
+                        li {
+                            .visto {
+                                width: 3.0rem;
+                                height: 3.0rem;
+                            }
 
-                        .mentoria_texto {
-                            font-size: 2.2rem;
+                            .mentoria_texto {
+                                font-size: 2.2rem;
+                            }
                         }
                     }
                 }
 
+                .man-with-btc {
+                    display: none;
+                }
 
 
             }
@@ -1055,7 +1065,7 @@ footer {
     main {
         width: 100vw;
         max-width: none;
-        background-color: red;
+
 
         .social-media {
             margin-top: 4.8rem;
@@ -1108,7 +1118,7 @@ footer {
         }
 
         .mentoria-contenedor {
-           
+
             .h2--subtitle {
                 @extend %h2_subtitle;
             }
@@ -1117,23 +1127,32 @@ footer {
                 margin: auto;
                 padding: 0px;
                 display: flex;
-                ul {
-                    width: 50%;
-                    background-color: red;
-                    li {
-                        .visto {
-                            width: 3.0rem;
-                            height: 3.0rem;
-                        }
+                flex-direction: row;
 
-                        .mentoria_texto {
-                            font-size: 2rem;
+                div {
+                    width: 50%;
+                    ul {
+                      
+                        background-color: red;
+
+                        li {
+                            .visto {
+                                width: 3.0rem;
+                                height: 3.0rem;
+                            }
+
+                            .mentoria_texto {
+                                font-size: 2rem;
+                            }
                         }
                     }
                 }
-                .man-with-btc{
-                    width: 50%;
+
+                .man-with-btc {
+                    display: block;
+
                     margin: auto;
+                    border-radius: 12px 30%;
                 }
 
 
