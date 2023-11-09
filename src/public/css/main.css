@@ -762,9 +762,15 @@ footer .span-logo {
     padding: 0px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 12px;
   }
   main .mentoria-contenedor .mentoria_contenido div {
     width: 50%;
+  }
+  main .mentoria-contenedor .mentoria_contenido div ul li {
+    margin-top: 8px;
+    margin-bottom: 0px;
   }
   main .mentoria-contenedor .mentoria_contenido div ul li .visto {
     width: 3rem;
@@ -775,7 +781,7 @@ footer .span-logo {
   }
   main .mentoria-contenedor .mentoria_contenido .man-with-btc {
     display: block;
-    height: 300px;
+    height: 100%;
     margin: auto;
     border-radius: 12px 30%;
   }

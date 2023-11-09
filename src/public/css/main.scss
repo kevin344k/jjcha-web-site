@@ -1128,6 +1128,8 @@ footer {
                 padding: 0px;
                 display: flex;
                 flex-direction: row;
+                justify-content: center;
+                gap: 12px;
 
                 div {
                     width: 50%;
@@ -1136,6 +1138,8 @@ footer {
                       
 
                         li {
+                            margin-top: 8px;
+                            margin-bottom: 0px;
                             .visto {
                                 width: 3.0rem;
                                 height: 3.0rem;
@@ -1150,7 +1154,7 @@ footer {
 
                 .man-with-btc {
                     display: block;
-height: 300px;
+height: 100%;
                     margin: auto;
                     border-radius: 12px 30%;
                 }
