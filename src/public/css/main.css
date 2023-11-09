@@ -757,6 +757,10 @@ footer .span-logo {
     padding: 0px;
     display: flex;
   }
+  main .mentoria-contenedor .mentoria_contenido ul {
+    width: 50%;
+    background-color: red;
+  }
   main .mentoria-contenedor .mentoria_contenido ul li .visto {
     width: 3rem;
     height: 3rem;
@@ -765,6 +769,7 @@ footer .span-logo {
     font-size: 2rem;
   }
   main .mentoria-contenedor .mentoria_contenido .man-with-btc {
+    width: 50%;
     margin: auto;
   }
   main .about_me {

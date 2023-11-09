@@ -1118,6 +1118,8 @@ footer {
                 padding: 0px;
                 display: flex;
                 ul {
+                    width: 50%;
+                    background-color: red;
                     li {
                         .visto {
                             width: 3.0rem;
@@ -1130,6 +1132,7 @@ footer {
                     }
                 }
                 .man-with-btc{
+                    width: 50%;
                     margin: auto;
                 }
 
