@@ -765,9 +765,14 @@ footer .span-logo {
     justify-content: center;
     gap: 12px;
   }
+  main .mentoria-contenedor .mentoria_contenido:nth-child(1) {
+    padding-left: 80px;
+  }
   main .mentoria-contenedor .mentoria_contenido div {
     width: 50%;
-    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   main .mentoria-contenedor .mentoria_contenido div ul li {
     margin-top: 8px;
