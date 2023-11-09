@@ -2,6 +2,7 @@ let animated_live=document.querySelector(".animated_live")
 let ico_live=document.querySelectorAll(".ico-live")
 
 let animation_btc=document.querySelector(".animation-btc")
+let man_with_btc=document.querySelector(".man-with-btc")
 
 
 bodymovin.loadAnimation({
@@ -23,4 +24,10 @@ bodymovin.loadAnimation({
     container:animation_btc,
     path:'../assets/lottie/only-btc.json'
 })
+
+bodymovin.loadAnimation({
+    container:man_with_btc,
+    path:'../assets/lottie/person-get-coin.json'
+})
+
 

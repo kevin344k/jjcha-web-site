@@ -54,13 +54,6 @@ html {
     box-sizing: border-box;
 }
 
-/*
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-*/
 
 body {
     font-family: $font-family-poppins;
@@ -146,29 +139,30 @@ body {
 
             .div-clok--container {
 
-                margin:12px auto;
-               
+                margin: 12px auto;
+
                 height: fit-content;
                 width: fit-content;
                 //background-color: $turquesa_transparent;
                 //border-radius: 12px;
                 //box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75) inset;
-                
-              
-                .text-rewards-halvin{
-                font-family: $font-family-poppins;
-                color: $black-soft;
-                font-weight: 700;
-                margin-top: 0px;
+
+
+                .text-rewards-halvin {
+                    font-family: $font-family-poppins;
+                    color: $black-soft;
+                    font-weight: 700;
+                    margin-top: 0px;
                 }
-                .text-halvin{
+
+                .text-halvin {
                     font-family: $font-family-poppins;
                     color: $black-soft;
                     font-weight: 700;
                     margin-bottom: 36px;
                 }
-                
-                
+
+
                 .clock {
 
                     width: 100%;
@@ -302,7 +296,8 @@ main {
         .social-media--container {
             display: flex;
             flex-direction: column;
-            .div-lives {
+
+            .div-today-luck {
                 margin: 58px 0px;
                 padding: 0px 16px;
 
@@ -331,25 +326,23 @@ main {
                     width: 100%;
                     height: 250px;
                 }
+
                 .schedule-lives {
                     width: 100%;
                     height: fit-content;
-                   //background-image: linear-gradient(to right, $orange, #9F046C);
-                   // padding: 16px;
-                    border-radius: 16px 30% 16px 30%;
+
                     text-align: center;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    //box-shadow: $box-shadow-big;
-                  
+
+                    p {
+                        font-size: 2.4rem;
+                    }
 
                     .live_texto {
                         font-weight: 500;
                         color: $orange;
                     }
                 }
-             
+
             }
 
             .social-buttons {
@@ -371,15 +364,15 @@ main {
                     border: 1px solid $gray-soft;
                     box-shadow: $box-shadow-small;
                     background-color: $blanco;
-                    padding: 1rem 1.8rem;  
-                    margin-top: 16px;              
+                    padding: 1rem 1.8rem;
+                    margin-top: 16px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-family: $font-family-poppins;
                     font-size: 1.7rem;
                     text-decoration: none;
-            
+
                     color: $black-soft;
 
 
@@ -639,50 +632,51 @@ footer {
 
                 .div-clok--container {
 
-                    margin:12px auto;
-                   
+                    margin: 12px auto;
+
                     height: fit-content;
                     width: fit-content;
                     //background-color: $turquesa_transparent;
                     //border-radius: 12px;
                     //box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75) inset;
-                    
-                  
-                    .text-rewards-halvin{
-                    font-family: $font-family-poppins;
-                    color: $black-soft;
-                    font-weight: 700;
-                    }
-                    .text-halvin{
+
+
+                    .text-rewards-halvin {
                         font-family: $font-family-poppins;
                         color: $black-soft;
                         font-weight: 700;
                     }
-                    
-                    
+
+                    .text-halvin {
+                        font-family: $font-family-poppins;
+                        color: $black-soft;
+                        font-weight: 700;
+                    }
+
+
                     .clock {
-    
+
                         width: 100%;
                     }
-    
+
                     .flip-clock-wrapper {
                         margin: 16px 0px;
-    
+
                         ul {
                             margin: 3px;
-    
+
                             li {
                                 line-height: 85px;
-    
+
                                 a {
                                     .up {
-    
+
                                         .inn {
                                             font-size: 70px;
                                         }
-    
+
                                     }
-    
+
                                     .down {
                                         .inn {
                                             font-size: 70px;
@@ -691,75 +685,81 @@ footer {
                                 }
                             }
                         }
-    
+
                         .flip-clock-divider {
                             width: 10px;
                             height: 90px;
-    
+
                             .flip-clock-label {
                                 right: -50px;
                             }
-    
-    
+
+
                         }
-    
+
                         .days {
                             width: 0px;
                         }
-    
+
                         .hours {
                             .flip-clock-dot {
                                 left: 0;
                             }
-    
+
                             .top {
                                 top: 30px;
                             }
-    
+
                             .bottom {
                                 top: 50px;
                             }
                         }
-    
+
                         .minutes {
                             .flip-clock-dot {
                                 left: 0;
                             }
-    
+
                             .top {
                                 top: 30px;
                             }
-    
+
                             .bottom {
                                 top: 50px;
                             }
                         }
-    
+
                         .seconds {
                             .flip-clock-dot {
                                 left: 0;
                             }
-    
+
                             .top {
                                 top: 30px;
                             }
-    
+
                             .bottom {
                                 top: 50px;
                             }
                         }
-    
-    
+
+
                     }
-    
+
                     .clock {
-    
+
                         .flip {
                             width: 50px;
                             height: 80px;
                         }
                     }
-    
+
+                }
+
+                div {
+                    h1 {
+                        font-size: 4.8rem;
+                    }
                 }
 
                 .button {
@@ -788,44 +788,43 @@ footer {
             }
 
             .social-media--container {
-                height: fit-content;
                 flex-direction: row;
 
-                .social-buttons {
-                    width: 35%;
-                    margin-top: 58px;
-                    display: grid;
-                    align-items: center;
-                    grid-template-columns: 1fr;
-                    gap: 12px;
-                }
+                .div-today-luck {
+                    margin-top: 24px;
+                    width: 50%;
 
-                .div-lives {
-            
-                    height: fit-content;
-
-                    .div-today-luck {
-                       
-
-                        .animated_live {
-                            width: 180px;
-                            margin: auto;
-                        }
-
-                        .schedule-lives {
-                           width: 100%;
-                            height: 100%;
-    
-                            p {
-                                font-size: 3rem;
-                            }
-    
-                        }
+                    .foto {
+                        width: 130px;
+                        height: 130px;
                     }
 
-                   
+                    .animated_live {
+                        width: 180px;
+                        height: 120px;
+                    }
+
+                    .schedule-lives {
+                        width: 100%;
+                        height: 100%;
+
+                        p {
+                            font-size: 2.4rem;
+                            color: $orange;
+                            font-weight: 500;
+                        }
+
+                    }
                 }
+
+                .social-buttons {
+                    width: 50%;
+                }
+
+
             }
+
+
 
         }
 
@@ -900,9 +899,9 @@ footer {
 @media screen and (width>993px) {
 
 
-%h2_subtitle{
-    font-size: 3rem;
-}
+    %h2_subtitle {
+        font-size: 3rem;
+    }
 
     .encabezado {
         width: 100vw;
@@ -931,52 +930,54 @@ footer {
                 p {
                     font-size: 2rem;
                 }
+
                 .div-clok--container {
 
-                    margin:12px auto;
-                   
+                    margin: 12px auto;
+
                     height: fit-content;
                     width: fit-content;
                     //background-color: $turquesa_transparent;
                     //border-radius: 12px;
                     //box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.75) inset;
-                    
-                  
-                    .text-rewards-halvin{
-                    font-family: $font-family-poppins;
-                    color: $black-soft;
-                    font-weight: 700;
-                    }
-                    .text-halvin{
+
+
+                    .text-rewards-halvin {
                         font-family: $font-family-poppins;
                         color: $black-soft;
                         font-weight: 700;
                     }
-                    
-                    
+
+                    .text-halvin {
+                        font-family: $font-family-poppins;
+                        color: $black-soft;
+                        font-weight: 700;
+                    }
+
+
                     .clock {
-    
+
                         width: 100%;
                     }
-    
+
                     .flip-clock-wrapper {
                         margin: 16px 0px;
-    
+
                         ul {
                             margin: 5px;
-    
+
                             li {
                                 line-height: 87px;
-    
+
                                 a {
                                     .up {
-    
+
                                         .inn {
                                             font-size: 80px;
                                         }
-    
+
                                     }
-    
+
                                     .down {
                                         .inn {
                                             font-size: 80px;
@@ -985,56 +986,57 @@ footer {
                                 }
                             }
                         }
-    
+
                         .flip-clock-divider {
                             width: 10px;
                             height: 90px;
-    
+
                             .flip-clock-label {
                                 right: -50px;
                             }
-    
-    
+
+
                         }
-    
+
                         .days {
                             width: 0px;
                         }
-    
+
                         .hours {
                             .flip-clock-dot {
                                 left: 0;
                             }
-    
+
                             .top {
                                 top: 40px;
                             }
-    
+
                             .bottom {
                                 top: 60px;
                             }
                         }
-    
+
                         .minutes {
                             @extend .hours;
                         }
-    
+
                         .seconds {
                             @extend .hours;
                         }
-    
-    
+
+
                     }
-    
+
                     .clock {
-    
+
                         .flip {
                             width: 60px;
                             height: 90px;
                         }
                     }
-    
+
                 }
+
                 .button {
                     width: 300px;
                     font-size: 2.2rem;
@@ -1053,10 +1055,11 @@ footer {
     main {
         width: 100vw;
         max-width: none;
+        background-color: red;
 
         .social-media {
             margin-top: 4.8rem;
-            width: 100%;
+            width: 100vw;
             padding: 0px 10%;
 
             .h2--subtitle {
@@ -1064,53 +1067,56 @@ footer {
             }
 
             .social-media--container {
-                height: 100%;
+                flex-direction: row;
 
-                .social-buttons {
+                .div-today-luck {
+                    margin-top: 24px;
+                    width: 50%;
 
-                    margin-top: 58px;
-                    display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
-                    gap: 12px;
-                }
+                    .foto {
+                        width: 130px;
+                        height: 130px;
+                    }
 
-                .div-lives {
-                    display: flex;
-                    height: 568px;
-                    justify-content: space-evenly;
-
-                    .div-today-luck {
-                        width: 50%;
-
-                        .animated_live {
-                            width: 100%;
-                        }
+                    .animated_live {
+                        margin: auto;
+                        width: 180px;
+                        height: 120px;
                     }
 
                     .schedule-lives {
-                        width: 50%;
-                        height: 100%;
+                        width: 100%;
+                        height: fit-content;
 
                         p {
-                            font-size: 38px;
-                            text-align: center;
+                            font-size: 2.4rem;
+                            color: $orange;
+                            font-weight: 500;
                         }
 
                     }
                 }
+
+                .social-buttons {
+                    width: 50%;
+                }
+
+
             }
+
 
         }
 
         .mentoria-contenedor {
-            padding: 8rem 20rem;
-
+           
             .h2--subtitle {
                 @extend %h2_subtitle;
             }
 
             .mentoria_contenido {
-
+                margin: auto;
+                padding: 0px;
+                display: flex;
                 ul {
                     li {
                         .visto {
@@ -1119,9 +1125,12 @@ footer {
                         }
 
                         .mentoria_texto {
-                            font-size: 2.2rem;
+                            font-size: 2rem;
                         }
                     }
+                }
+                .man-with-btc{
+                    margin: auto;
                 }
 
 
@@ -1135,7 +1144,7 @@ footer {
             margin: 38px auto;
 
             .h2_subtitle {
-               @extend %h2_subtitle;
+                @extend %h2_subtitle;
             }
 
             .redes_contenido {
@@ -1176,7 +1185,7 @@ footer {
         .section-catalogo {
             height: fit-content;
             width: 100%;
-           // padding: 3.2rem 10%;
+            // padding: 3.2rem 10%;
 
             .h2_subtitle {
                 @extend %h2_subtitle;

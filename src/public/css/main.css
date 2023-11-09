@@ -15,13 +15,6 @@ html {
   box-sizing: border-box;
 }
 
-/*
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-*/
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
@@ -202,42 +195,41 @@ main .social-media .social-media--container {
   display: flex;
   flex-direction: column;
 }
-main .social-media .social-media--container .div-lives {
+main .social-media .social-media--container .div-today-luck {
   margin: 58px 0px;
   padding: 0px 16px;
 }
-main .social-media .social-media--container .div-lives .foto {
+main .social-media .social-media--container .div-today-luck .foto {
   border-radius: 10rem;
   width: 15rem;
   height: auto;
   background-color: var(--gris);
   box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.3);
 }
-main .social-media .social-media--container .div-lives .live_texto {
+main .social-media .social-media--container .div-today-luck .live_texto {
   font-size: 3rem;
   margin: 1rem;
 }
-main .social-media .social-media--container .div-lives .live_texto--mentoria {
+main .social-media .social-media--container .div-today-luck .live_texto--mentoria {
   color: #F5515F;
   font-weight: 700;
   font-size: 3.2rem;
   text-decoration: underline;
 }
-main .social-media .social-media--container .div-lives .animated_live {
+main .social-media .social-media--container .div-today-luck .animated_live {
   width: 100%;
   height: 250px;
 }
-main .social-media .social-media--container .div-lives .schedule-lives {
+main .social-media .social-media--container .div-today-luck .schedule-lives {
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
-  border-radius: 16px 30% 16px 30%;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
-main .social-media .social-media--container .div-lives .schedule-lives .live_texto {
+main .social-media .social-media--container .div-today-luck .schedule-lives p {
+  font-size: 2.4rem;
+}
+main .social-media .social-media--container .div-today-luck .schedule-lives .live_texto {
   font-weight: 500;
   color: #F5515F;
 }
@@ -542,6 +534,9 @@ footer .span-logo {
     width: 50px;
     height: 80px;
   }
+  .encabezado .section-hero .div-hero--slogan div h1 {
+    font-size: 4.8rem;
+  }
   .encabezado .section-hero .div-hero--slogan .button {
     width: 300px;
     font-size: 2.2rem;
@@ -561,32 +556,31 @@ footer .span-logo {
     font-size: 30px;
   }
   main .social-media .social-media--container {
-    height: -moz-fit-content;
-    height: fit-content;
     flex-direction: row;
   }
-  main .social-media .social-media--container .social-buttons {
-    width: 35%;
-    margin-top: 58px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr;
-    gap: 12px;
+  main .social-media .social-media--container .div-today-luck {
+    margin-top: 24px;
+    width: 50%;
   }
-  main .social-media .social-media--container .div-lives {
-    height: -moz-fit-content;
-    height: fit-content;
+  main .social-media .social-media--container .div-today-luck .foto {
+    width: 130px;
+    height: 130px;
   }
-  main .social-media .social-media--container .div-lives .div-today-luck .animated_live {
+  main .social-media .social-media--container .div-today-luck .animated_live {
     width: 180px;
-    margin: auto;
+    height: 120px;
   }
-  main .social-media .social-media--container .div-lives .div-today-luck .schedule-lives {
+  main .social-media .social-media--container .div-today-luck .schedule-lives {
     width: 100%;
     height: 100%;
   }
-  main .social-media .social-media--container .div-lives .div-today-luck .schedule-lives p {
-    font-size: 3rem;
+  main .social-media .social-media--container .div-today-luck .schedule-lives p {
+    font-size: 2.4rem;
+    color: #F5515F;
+    font-weight: 500;
+  }
+  main .social-media .social-media--container .social-buttons {
+    width: 50%;
   }
   main .mentoria-contenedor {
     padding: 20px;
@@ -722,49 +716,56 @@ footer .span-logo {
   main {
     width: 100vw;
     max-width: none;
+    background-color: red;
   }
   main .social-media {
     margin-top: 4.8rem;
-    width: 100%;
+    width: 100vw;
     padding: 0px 10%;
   }
   main .social-media .social-media--container {
-    height: 100%;
+    flex-direction: row;
+  }
+  main .social-media .social-media--container .div-today-luck {
+    margin-top: 24px;
+    width: 50%;
+  }
+  main .social-media .social-media--container .div-today-luck .foto {
+    width: 130px;
+    height: 130px;
+  }
+  main .social-media .social-media--container .div-today-luck .animated_live {
+    margin: auto;
+    width: 180px;
+    height: 120px;
+  }
+  main .social-media .social-media--container .div-today-luck .schedule-lives {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main .social-media .social-media--container .div-today-luck .schedule-lives p {
+    font-size: 2.4rem;
+    color: #F5515F;
+    font-weight: 500;
   }
   main .social-media .social-media--container .social-buttons {
-    margin-top: 58px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 12px;
+    width: 50%;
   }
-  main .social-media .social-media--container .div-lives {
+  main .mentoria-contenedor .mentoria_contenido {
+    margin: auto;
+    padding: 0px;
     display: flex;
-    height: 568px;
-    justify-content: space-evenly;
-  }
-  main .social-media .social-media--container .div-lives .div-today-luck {
-    width: 50%;
-  }
-  main .social-media .social-media--container .div-lives .div-today-luck .animated_live {
-    width: 100%;
-  }
-  main .social-media .social-media--container .div-lives .schedule-lives {
-    width: 50%;
-    height: 100%;
-  }
-  main .social-media .social-media--container .div-lives .schedule-lives p {
-    font-size: 38px;
-    text-align: center;
-  }
-  main .mentoria-contenedor {
-    padding: 8rem 20rem;
   }
   main .mentoria-contenedor .mentoria_contenido ul li .visto {
     width: 3rem;
     height: 3rem;
   }
   main .mentoria-contenedor .mentoria_contenido ul li .mentoria_texto {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  main .mentoria-contenedor .mentoria_contenido .man-with-btc {
+    margin: auto;
   }
   main .about_me {
     padding: 0rem 10%;
