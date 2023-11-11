@@ -5,10 +5,23 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
   touch: false
 })
 
-const myModal=document.querySelector("#exampleModal")
-//MODAL CODE
+//modal 
+let date=new Date().getDay()
+let days=["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"]
+console.log(days[date]);
 
-window.addEventListener("load",()=>{
-  myModal.show()
+const modalWarn = new bootstrap.Modal('#modal-warning')
+const modalFriday= new bootstrap.Modal("#modal-friday")
 
-})
+
+if (days[date]==="Viernes") {
+    window.addEventListener("load",()=>{
+        modalFriday.show()
+    })
+} else{
+    window.addEventListener("load",()=>{
+        modalWarn.show()
+    })
+    
+    
+}
