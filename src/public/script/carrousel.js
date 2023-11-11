@@ -12,11 +12,17 @@ console.log(days[date]);
 
 const modalWarn = new bootstrap.Modal('#modal-warning')
 const modalFriday= new bootstrap.Modal("#modal-friday")
-
+const butModalDino=document.querySelector("#butModalDino")
 
 if (days[date]==="Viernes") {
     window.addEventListener("load",()=>{
         modalFriday.show()
+
+
+        butModalDino.addEventListener("click",()=>{
+          modalFriday.hide()
+        })
+      
     })
 } else{
     window.addEventListener("load",()=>{
